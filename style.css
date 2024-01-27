@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* line-height: 1; */
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    z-index: -2;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* justify-content: center; */
+}
+#nav{
+    padding: 1.5vw 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 18vh;
+    /* background-color: blueviolet; */
+}
+#nav-part-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 3vw;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+i{
+    font-size: 2rem;
+    font-weight: 400;
+}
+#nav>img{
+    height: 2vw;
+    cursor: pointer;
+    /* mix-blend-mode: multiply; */
+}
+#nav-part-3{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 2vw;
+}
+#nav-part-3>a:nth-last-child(1){
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 16px 24px;
+}
+#main>h1{
+    font-size: 7vw;
+    /* padding-top: 6vh; */
+    /* margin: auto 0; */
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+#main>h1>span{
+    font-size: 1.5vw;
+    background-color: brown;
+    padding: 1rem 1.8rem;
+    border-radius: 3rem;
+    margin: 0 1.5rem;
+    font-family: initial;
+    font-weight: 500;
+    cursor: pointer;
+    z-index: 10;
+}
+#img1{
+    position: absolute;
+    bottom: 1%;
+    left: 24%;
+    width: 15rem;
+    height: max-content;
+    z-index: -1;
+    border-radius: 8px;
+}
+#img2{
+    position: absolute;
+    bottom: 8%;
+    right: 8%;
+    width: max-content;
+    height: 40vh;
+    z-index: -1;
+    border-radius: 8px;
+}
+#img3{
+    position: absolute;
+    top: 18%;
+    right: 20%;
+    width: 20vw;
+    height: 12vw;
+    z-index: -1;
+    border-radius: 8px;
+}
+#img4{
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    width: 12vw;
+    height: 18vw;
+    z-index: -1;
+    border-radius: 8px;
+}
+h5{
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: large;
+}
